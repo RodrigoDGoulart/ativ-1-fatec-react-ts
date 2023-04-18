@@ -11,7 +11,6 @@ import 'numeral/locales/pt-br';
 import { LoteriaProps } from "../../types";
 import { ListaNumerosLotoFacil } from "../../components/ListaNumerosLotoFacil";
 import { useEffect } from "react";
-import { Carregando } from "../Carregando";
 
 export default function Resultados () {
     const {lotofacil, megasena} = useContexto();
